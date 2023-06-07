@@ -1,0 +1,31 @@
+{
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-router-dom": "^6.12.0"
+	},
+	"devDependencies": {
+		"parcel": "^2.9.1",
+		"postcss": "^8.4.24",
+		"process": "^0.11.10",
+		"tailwindcss": "^3.3.2"
+	},
+	"name": "healthapp",
+	"description": "",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "parcel index.html"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/natasha-pereira/healthApp.git"
+	},
+	"author": "Natasha P",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/natasha-pereira/healthApp/issues"
+	},
+	"homepage": "https://github.com/natasha-pereira/healthApp#readme"
+}
