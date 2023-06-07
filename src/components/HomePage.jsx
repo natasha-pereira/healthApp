@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { details } from "../utils/Details";
 
 const HomePage = () => {
 	return (
@@ -30,17 +31,23 @@ const HomePage = () => {
 					<h1 className="font-semibold text-lg text-blue-900 m-4">
 						Personal Details
 					</h1>
-					<h3>Sunita Sharma</h3>
-					<h4>Age: 65</h4>
-					<h4>Lives in: Delhi,India</h4>
-					<h4>Weight: 60 Kgs</h4>
-					<h4>Height: 5'6''</h4>
-					<h4>BMI: 20.4</h4>
-					<h4>Blood group: A+ve</h4>
-					<h4>Last health check: 14 April, 2023</h4>
-					<h4>Check Medical history</h4>
-					<h4>Insurance details</h4>
-					<h4>Emergency Contact details</h4>
+					<h3>{details.name}</h3>
+					<h4>Age: {details.age}</h4>
+					<h4>Lives in: {details.location}</h4>
+					<h4>Weight: {details.weight}</h4>
+					<h4>Height: {details.height}</h4>
+					<h4>BMI: {details.bmi}</h4>
+					<h4>Blood group: {details.bloodGroup}</h4>
+					<h4>Last health check: {details.lastHealthCheck}</h4>
+					<h4 className="font-semibold text-red-800 hover:underline">
+						Check Medical history
+					</h4>
+					<h4 className="font-semibold text-red-800 hover:underline">
+						Insurance details
+					</h4>
+					<h4 className="font-semibold text-red-800 hover:underline">
+						Emergency Contact details
+					</h4>
 				</div>
 			</div>
 			<div>

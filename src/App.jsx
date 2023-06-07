@@ -5,6 +5,8 @@ import HomePage from "./components/HomePage";
 import LoginPage from "./components/LoginPage";
 import { Outlet, createBrowserRouter, RouterProvider } from "react-router-dom";
 import FruitNutrition from "./components/FruitNutrition";
+import Devices from "./components/Devices";
+import Medicines from "./components/Medicines";
 
 const App = () => {
 	return (
@@ -31,6 +33,14 @@ const appRouter = createBrowserRouter([
 			{
 				path: "/fruitNutition",
 				element: <FruitNutrition />,
+			},
+			{
+				path: "/devices",
+				element: <Devices />,
+			},
+			{
+				path: "/medicines",
+				element: <Medicines />,
 			},
 		],
 	},

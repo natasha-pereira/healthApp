@@ -20,8 +20,12 @@ const Header = () => {
 						<li>Login</li>
 					</Link>
 					<li>Manage Account</li>
-					<li>Devices</li>
-					<li>Medicines</li>
+					<Link to="/devices">
+						<li>Devices</li>
+					</Link>
+					<Link to="/medicines">
+						<li>Medicines</li>
+					</Link>
 					<li>Reports</li>
 					<li>Notifications</li>
 				</ul>
